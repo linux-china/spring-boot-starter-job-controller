@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  *
  * @author linux_china
  */
-@ConfigurationProperties(prefix = "spring.mybatis")
+@ConfigurationProperties(prefix = "spring.job.controller")
 public class JobControllerProperties {
     /**
      * auto start
