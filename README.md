@@ -12,9 +12,9 @@ Spring boot starter Job Controller。
                      <version>1.0.0-SNAPSHOT</version>
           </dependency>
 
-* 在Spring Boot的application.properties文件中添加tair对应的Uri，如下:
+* 在Spring Boot的application.properties添加是否启动启动的配置，如下:
                     
-          spring.jobcontroller.auto-starter=false
+          spring.job.controller.auto-start=true=false
 
 * 在你的项目中添加一下代码,我们是建议一个class只执行一个job,这样方便监控数据: 
 
